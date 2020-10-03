@@ -11,6 +11,8 @@ import {
 import Review from './Review';
 import About from './About'
 import Booking from './Booking';
+import SignUp from './SignUp';
+
 
 function App() {
   return (
@@ -18,6 +20,11 @@ function App() {
       <div className="app">
 
         <Switch>
+
+        <Route path="/SignUp">
+            <Header />
+            <SignUp />
+          </Route>
           
           <Route path="/menu">
             <Header />
